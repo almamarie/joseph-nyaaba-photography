@@ -1,0 +1,82 @@
+.hero{
+    width: 100%;
+    height: 76.4rem;
+    
+    background-image: url("/src/resources/images/group_7_new.png");
+    background-repeat: no-repeat;
+    background-size:auto;
+
+    opacity: 70%;
+
+    padding:0 17.9rem;
+    padding-top: 17rem;
+}
+
+
+.greeting{
+    font-weight: normal;
+    opacity: 1;
+    font-size: 5.4rem;
+}
+
+.name, .name span {
+    font-size: 7rem;
+    font-weight: normal;
+}
+
+.name span {
+    color: var(--color-yellow);
+}
+
+.profession {
+    font-size: 2.2rem;
+}
+
+.description {
+    width: 63.6rem;
+
+    margin: 4rem 0;
+}
+
+.button {
+    width: 14.6rem;
+    height: 4rem;
+
+    font-size: 2.2rem;
+
+    color: var(--color-dark);
+    background-color: var(--color-yellow);
+
+    border: 2px solid var(--color-dark);
+    border-radius: 1rem;
+
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: var(--color-yellow__tint);
+    color: #000b12;
+}
+
+
+/* 
+.hero {
+    width: 100%;
+    height: 76.4rem;
+    position: relative;
+}
+
+.hero:before {
+    content: "";
+    position: absolute; 
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url("/src/resources/images/group_7_new.png");
+    background-repeat: no-repeat;
+    background-size:auto;
+    opacity: 0.7; 
+
+    z-index: 1
+} */
