@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Hero.module.css";
+import josephPhoto from "../../../../resources/svg/al-elmes 1.svg";
 
 const Hero = () => {
   return (
@@ -20,6 +21,8 @@ const Hero = () => {
 
         <button className={styles.button}>HIRE ME</button>
       </div>
+
+      <img src={josephPhoto} alt="joseph nyaaba" className={styles.img} />
     </section>
   );
 };

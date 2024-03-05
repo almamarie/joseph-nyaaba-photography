@@ -1,0 +1,29 @@
+.scroll-container {
+  
+  overflow: scroll;
+}
+
+.scroll-wrapper {
+  white-space: nowrap;
+  /* overflow: scroll; */
+  /* width: 100%; */
+
+  animation: scroll 30s linear infinite;
+}
+
+.scroll-wrapper img {
+  width: 39.7rem; /* Adjust image width as needed */
+  height: 40rem; /* Maintain aspect ratio */
+  margin-right: 20px; /* Adjust spacing between images */
+
+  border-radius: 2.5rem;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
