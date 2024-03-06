@@ -1,0 +1,87 @@
+/*
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+.wrapper {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    /* gap: 1rem; */
+
+    position: relative;
+}
+
+.current {
+    position: absolute;
+   
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%) scale(1.1);
+
+    opacity: 1;
+    z-index: 1;
+}
+
+.left, .right {
+    opacity: .8;
+}
+
+.control--right svg, .control--left svg {
+    width: 4.8rem;
+    height: 6.4rem;
+
+    fill: var(--color-yellow);
+}
+
+.control--right, .control--left{
+    width: 6.4rem;
+    height: 6.4rem;
+
+    border-radius: 1.5rem;
+
+    background-color: var(--color-white);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+
+    z-index: 1;
+}
+
+
+.control--right:hover, .control--left:hover{
+    background-color: #aaa;
+    
+}
+
+
+.control--right:active, .control--left:active{
+    background-color: var(--color-white);
+}
+
+.control--left {
+    position: absolute;
+    left: 8rem;
+    top: 50%;
+    transform: translateY(-50%) rotate(-180deg);
+}
+
+.control--right {
+    position: absolute;
+    top: 50%;
+    right: 8rem;
+    transform: translateY(-50%);
+
+}
+
+.icon-wrapper{
+    width: 7.2rem;
+    height: 7.2rem;
+}

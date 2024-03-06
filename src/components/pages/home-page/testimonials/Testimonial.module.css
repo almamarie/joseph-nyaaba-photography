@@ -1,0 +1,39 @@
+/*
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+.wrapper {
+    width:75.8rem;
+    height: 33.2rem;
+
+    background-color: var(--color-yellow);
+
+    text-align: center;
+
+    padding-top: 3.2rem;
+
+    box-shadow: 5px 5px 5px rgba(256, 256, 256, 0.3);
+}
+
+.wrapper p{
+    width: 58.3rem;
+
+    text-align: center;
+
+    margin: 0 auto;
+
+    font-size: 2.4rem;
+}
+
+.wrapper img {
+    width: 9.8rem;
+    height: 9.8rem;
+    border-radius: 50%;
+
+    margin-top: 3.2rem;
+}
+
