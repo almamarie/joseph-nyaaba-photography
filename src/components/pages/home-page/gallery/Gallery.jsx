@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Gallery.module.css";
 import ImageScrollable from "./ImageScrollable";
+import Categories from "./Categories";
 
 const Gallery = () => {
   return (
@@ -17,6 +18,7 @@ const Gallery = () => {
         </div>
       </div>
       <ImageScrollable />
+      <Categories />
     </section>
   );
 };

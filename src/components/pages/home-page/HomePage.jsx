@@ -1,12 +1,12 @@
 import React from "react";
 import Hero from "./hero/Hero";
-import Gallery from "./traction/Gallery";
+import Gallery from "./gallery/Gallery";
 
 const HomePage = () => {
   return (
     <>
       <Hero />
-      {/* <Gallery /> */}
+      <Gallery />
     </>
   );
 };
