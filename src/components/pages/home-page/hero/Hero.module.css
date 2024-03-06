@@ -1,26 +1,42 @@
+/*
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
 .hero{
     width: 100%;
-    height: 76.4rem;
-    
-    background-image: url("/src/resources/images/group_7_new.png");
-    background-repeat: no-repeat;
-    background-size:auto;
-
-    opacity: 70%;
+    height: 98rem;
 
     padding:0 17.9rem;
     padding-top: 17rem;
+
+    position: relative;
+}
+
+.background-image{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+
+    z-index: -1;
+
+    opacity: 70%;
 }
 
 
 .greeting{
     font-weight: normal;
     opacity: 1;
-    font-size: 5.4rem;
+    font-size: 6.4rem;
 }
 
 .name, .name span {
-    font-size: 7rem;
+    font-size: 8rem;
     font-weight: normal;
 }
 
@@ -29,7 +45,7 @@
 }
 
 .profession {
-    font-size: 2.2rem;
+    font-size: 2.4rem;
 }
 
 .description {
@@ -40,17 +56,19 @@
 
 .button {
     width: 14.6rem;
-    height: 4rem;
+    height: 4.8rem;
 
     font-size: 2.2rem;
 
     color: var(--color-dark);
     background-color: var(--color-yellow);
 
-    border: 2px solid var(--color-dark);
+    border: none;
     border-radius: 1rem;
 
     cursor: pointer;
+
+    box-shadow: 0px 5px 10px rgba(256,256,256, 0.5);
 }
 
 .button:hover {
@@ -58,25 +76,3 @@
     color: #000b12;
 }
 
-
-/* 
-.hero {
-    width: 100%;
-    height: 76.4rem;
-    position: relative;
-}
-
-.hero:before {
-    content: "";
-    position: absolute; 
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-image: url("/src/resources/images/group_7_new.png");
-    background-repeat: no-repeat;
-    background-size:auto;
-    opacity: 0.7; 
-
-    z-index: 1
-} */

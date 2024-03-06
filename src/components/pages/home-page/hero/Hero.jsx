@@ -1,9 +1,15 @@
 import React from "react";
 import styles from "./Hero.module.css";
+import backgroundImage from "../../../../resources/images/group_7_new.png";
 
 const Hero = () => {
   return (
     <section className={styles.hero}>
+      <img
+        src={backgroundImage}
+        className={styles["background-image"]}
+        alt="nyaaba joseph"
+      />
       <div className={styles.text}>
         <h2 className={styles.greeting}>Hi Everyone!</h2>
         <h1 className={styles.name}>
